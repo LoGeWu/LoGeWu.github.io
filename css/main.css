@@ -1674,7 +1674,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e428f7;
+  background: #22ff6a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1906,6 +1906,12 @@ article:last-child .post-eof {
 .site-state-item-name {
   color: inherit;
   font-size: 0.875em;
+}
+* {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
+}
+:active {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
 }
 .bg_content {
   position: fixed;
